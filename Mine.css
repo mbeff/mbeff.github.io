@@ -1,0 +1,52 @@
+/*
+    Background Color :  #0099ff
+    Tittle Color :      #000f1a
+    Text Color :        #ffffff
+*/
+
+body {
+    background-color: #0099ff;
+    color: #000f1a;
+    font-family: "Open Sans" Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px;
+    margins: 0;
+}
+
+.tm-container {
+    max-widht: 640px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.tm-main-content {background-color:#ffffff}
+
+#tm-intro-img {
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: contain;
+    min-height: 425px;
+}
+
+.tm-text-white {color: white;}
+.tm-page-header-container {text-align: center;}
+.tm-section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.tm-section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+
+a {transition: all 0.3s ease;}
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
